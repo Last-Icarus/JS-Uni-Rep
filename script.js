@@ -67,7 +67,7 @@ class Calculator {
                     x = x * prev;
                 computation = x
                 break
-            case 'sqrt(x)':
+            case 'root(x)':
                 computation = +(Math.round(Math.pow(prev, 1 / current) + "e+10") + "e-10")
                 break
             default:
